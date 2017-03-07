@@ -1,0 +1,109 @@
+body {
+    background: url('img/PianoBlur.jpg') no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 10vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-size: 28px;
+    text-align: center;
+}
+
+hr {
+  border-color: #4A4FB3;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar {
+    padding: 0px 20px;
+}
+
+.nav-line {
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 200ms linear 0s;
+}
+
+.nav-line:hover, .nav-line.active {
+    border-bottom-color: #4A4FB3;
+}
+
+.container {
+    padding: 50px 40px;
+}
+
+.italic {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn-scroll {
+    font-size: 40px;
+    color: #4A4FB3;
+    transition: color 200ms linear 0s;
+}
+
+#intro {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#blurb {
+    background-color: #F0F0F0;
+    color: black;
+}
+
+#listen {
+    background-color: white;
+    padding: 50px 0px;
+}
+
+#mount {
+}
+
+#quote {
+    background-color: #F0F0F0;
+    color: black;
+}
+
+#about {
+    background-color: white;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+}
